@@ -52,7 +52,7 @@ Where $mode is 1 through 6 as identified in Chapter 8.
 
 Find the parameters.h file in the root directory and fill in with your relevant data. Run make. Configure the PHINS appropriately and have fun. 
 
-Send any bug reports to 
+Send any bug reports or insights to
 
 Steve Troxel
 troxel@perlworks.com

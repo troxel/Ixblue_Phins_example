@@ -1,0 +1,33 @@
+12,	Attitude & Heading 
+12,	Attitude & Heading standard deviation 
+16,	Real time Heave/Surge/Sway 
+8,	Smart Heave
+12,	Heading/Roll/Pitch Rate 
+12,	Rotation rate in Subsea vehicle frame,compensated from Earth rotation
+12,	Acceleration in Subsea vehicle frame,compensated from gravity
+21,	Position 
+16,	Position standard deviation 
+12,	Speed in geographic frame 
+12,	Speed std dev. in geographic frame 
+8,	Current in geographic frame 
+8,	Current std dev in geographic frame 
+4,	System date 
+8,	INS/AHRS sensor status 
+16,	INS algorithm status 
+12,	INS system status 
+4,	INS user status 
+4,	AHRS algorithm status 
+12,	AHRS system status 
+4,	AHRS user status 
+12,	Heave, surge and sway speeds 
+12,	Speed in Subsea vehicle frame 
+12,	Acceleration in geographic frame not compensated from gravity
+8,	Course and speed over ground 
+12,	Temperatures (ACC/FOG/ANA) 
+16,	Attitude quaternion data 
+12,	Attitude quaternion standard deviation 
+12,	Raw accelerations in Subsea vehicle frame not compensated from gravity
+12,	Accelerations standard deviation Sub-sea vehicle frame
+12, Extended: Rot Accel in Body frame
+12, Extended: Rot Accel in Body frame STD dev
+12, Extended: Rot Accel in Body frame Not compensated for earth rotation

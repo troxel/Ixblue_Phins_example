@@ -4,7 +4,7 @@ IXBLUE PHINS Inertial Navigation System is a navigation quality instrument. This
 
 **Phins Compact C7 Interface Library MU-PHINC7IL-AN-001-C**
 
-## Reading STDBIN v3 protocol
+## Reading STDBIN v3 protocol from Ixblue Phins Compact C7
 
 The STDBIN protocol is an input/output binary protocol and thus more efficient to process in C than NMEA strings. When selecting this protocol as output (UDP Port 2002 in this example) you first select which navigation blocks of data you want from the IXBLUE web interface. The offsets into the binary byte stream then have to be counted for the various bits of data. 
 
@@ -18,7 +18,7 @@ When ***make*** successfully compiles the STDBIN program will be created:
 
 ./bin/read_stdbin_phins.exe  
  
-## Writing GPS protocol
+## Writing GPS protocol data updates to the Ixblue Phins Compact C7
 
 For sending correction updates to the PHINS I select GPS data and focused on the GPGGA standard string. In this example the UDP port is set to 8121.
 
@@ -26,7 +26,7 @@ When ***make*** successfully compiles the write gps protocol program will be cre
 
 ./bin/write_phins.exe 
 
-## Write Commands
+## Write command and control to the Ixblue Phins Compact C7
 
 The PHINS can send configuration and monitoring commands during operation on a special TCP port 8110 or serial port. In this example the TCP port is used. Although note once a connection has been made during a PHINS session a re-connect cannot be accomplished and power reset (or via the web interface) is required. 
 
@@ -56,3 +56,7 @@ Send any bug reports or insights to
 
 Steve Troxel
 troxel@perlworks.com
+
+## Other compatibility 
+
+I think this protocol is common across the Ixblue protocol or at least similar including Octans, Quadrans, Hydrins, Phins C3, Phins C5, Phins C7. If not please update me. 
